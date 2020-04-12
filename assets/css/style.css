@@ -1,0 +1,363 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+body 
+{
+    box-sizing: border-box;
+    background: #B3E5FC;
+    /* background-image: url(/assets/images/bginti.jpg);
+    background-position: right;
+    background-size: cover; */
+}
+a 
+{
+    text-decoration: none;
+    outline: none;
+}
+
+/* Start Header */
+header 
+{
+    width: 100%;
+    margin: 0px auto;
+}
+header .Jumbotron #pic
+{
+    min-height: 50vh;
+    background-image: linear-gradient(to right, #81D4FA, #039BE5 );
+    /* background-image: url(/assets/images/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative; */
+}
+header .Jumbotron h1 
+{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top: 150px;
+    right: 0;
+    left: 0;
+}
+header nav 
+{
+    padding: 20px;
+    background-color: rgb(10, 59, 97);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav .nama-brand a
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+header nav ul li 
+{
+    list-style: none;
+    display: inline-block;
+}
+header nav ul li a 
+{  
+    padding: 22px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    transition: .3s;
+}
+header nav ul li a:Hover
+{
+    background: rgba(65, 131, 215, 1);
+}
+/* End Header */
+
+/* Start Main */
+main 
+{
+    display: flex;
+    margin: 0px 0px 100px 0px;
+    width: 100%;
+    height: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+main .kotak
+{
+    position: relative;
+    width: 100%;
+    /* background: red; */
+    margin-bottom: -10px;
+}
+main .h, .m, .s
+{
+    width: 30px;
+}
+main .titik-2,.h, .m, .s
+{
+    display: inline-block;
+    font-size: 21pt;
+    color: #000000;
+    font-weight: bolder;
+}
+main .titik-2
+{
+    margin: 10px;
+}
+
+main #content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+    position: relative;
+    border-bottom: 5px solid rgba(34, 49, 63, 1);
+    /* background: blue; */
+}
+main #content article
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* min-height: 10vh; */
+    background: rgba(197, 239, 247, 1);
+    border-top: 5px solid rgb(10, 59, 97);
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px 1px;
+    margin: 20px;
+}
+main #content article .isi-konten 
+{
+    padding: 20px;
+    /* background: brown; */
+}
+main #content article .isi-konten h3 
+{
+    margin-bottom: 10px;
+}
+main #content article .isi-konten .head-konten
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+main #content article .isi-konten .head-konten p 
+{
+    margin-right: 10px;
+    font-size: 15px;
+}
+main .halaman 
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+main .halaman .no 
+{
+    padding: 5px 7px;
+    margin: 5px;
+    background: rgb(10, 59, 97);
+    border-radius: 5px;
+}
+main .halaman .no a 
+{
+    color: #ffffff;
+}
+main aside 
+{
+    padding: 10px;
+    width: 20%;
+    height: 650px;
+}
+main aside .pencarian 
+{
+    margin: 15px 0px 20px 0px;
+    display: flex;
+}
+main aside .pencarian input 
+{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px 1px;
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+main aside .profil
+{
+    width: 100%;
+    background: rgb(10, 59, 97);
+    border-top: 5px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px 1px;
+}
+main aside .profil .isi-profil
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    color: #ffffff;
+    /* background: red; */
+}
+main aside .profil .isi-profil img 
+{
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    border-radius: 50%;
+    margin: 10px;
+}
+main aside .profil .isi-profil p 
+{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+main aside .komunitas 
+{
+    margin-top: 20px;
+    width: 100%;
+    background: rgba(197, 239, 247, 1);
+    border-top: 5px solid rgb(10, 59, 97);
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px 1px;
+}
+main aside .komunitas .isi-komunitas 
+{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+main aside .komunitas .isi-komunitas h3 
+{
+    margin-bottom: 20px;
+}
+main aside .komunitas .isi-komunitas ul 
+{
+    margin-bottom: 20px;
+}
+main aside .komunitas .isi-komunitas ul li
+{
+    margin-left: 20px;    
+}
+
+main aside .popular 
+{
+    margin-top: 20px;
+    width: 100%;
+    background: rgba(197, 239, 247, 1);
+    border-top: 5px solid rgb(10, 59, 97);
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px 1px;
+}
+main aside .popular .isi-popular 
+{
+    margin: 20px ;
+    display: flex;
+    flex-direction: column;
+}
+main aside .popular .isi-popular h3 
+{
+    margin-bottom: 20px;
+}
+main aside .popular .isi-popular ul 
+{
+    margin-bottom: 20px;
+}
+main aside .popular .isi-popular ul li
+{
+    margin-left: 20px;    
+}
+/* End Main */
+
+/* Start Footer */
+footer 
+{
+    width: 100%;
+    height: 100px;
+    background: rgb(10, 59, 97);
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* End Footer */
+
+@media screen and (max-width: 815px)
+{
+    header nav
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    header ul 
+    {
+        margin-top: 20px;
+    }
+    header nav ul li 
+    {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav ul li a 
+    {
+        padding: 10px;
+    }
+    header nav ul li a:hover
+    {
+        background: none;
+    }
+
+    main 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main #content 
+    {
+        width: 95%;
+    }
+
+    main aside 
+    {
+        width: 95%;
+    }
+    main aside .profil
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 421px)
+{
+    main #content article .isi-konten .head-konten
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* margin-right: 0px;
+        font-size: 15px; */
+    }
+    main #content article .isi-konten .head-konten p 
+    {
+        margin-top: 5px;
+    }
+}
